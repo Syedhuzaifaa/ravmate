@@ -18,16 +18,16 @@ export default function Navigation() {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center gap-8 nav-Cus">
-            <Link href="/" className="text-slate-300 hover:text-white transition">
+            <Link href="/page3" className="text-slate-300 hover:text-white transition">
              Home
             </Link>
-            <Link href="/page2" className="text-slate-300 hover:text-white transition">
+            <Link href="/" className="text-slate-300 hover:text-white transition">
              About
             </Link>
-            <Link href="/page3" className="text-slate-300 hover:text-white transition">
+            <Link href="/page2" className="text-slate-300 hover:text-white transition">
               How we help
             </Link>
-             <Link href="/page3" className="text-slate-300 hover:text-white transition">
+             <Link href="/page2" className="text-slate-300 hover:text-white transition">
              Book a Call
             </Link>
           </div>
