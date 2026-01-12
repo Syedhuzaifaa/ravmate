@@ -1,35 +1,36 @@
 export default function HowItWorks() {
-  const steps = [
-    {
-      number: "1",
-      title: "Unpack",
-      description: "We dive deep into what you've built. Current state, future goals, real constraints.",
-    },
-    {
-      number: "2",
-      title: "Map",
-      description: "I map the gaps. Where are you losing people? Where's growth stuck? What's actually possible?",
-    },
-    {
-      number: "3",
-      title: "Design",
-      description: "We design your path forward. Systems, team structure, comp, and rollout plan.",
-    },
-    {
-      number: "4",
-      title: "Build",
-      description: "You execute. I partner alongside you, making sure nothing falls through the cracks.",
-    },
-    {
-      number: "5",
-      title: "Measure",
-      description: "We track what matters. Revenue, culture, retention. Adjust as we go.",
-    },
-  ]
+  // const steps = [
+  //   {
+  //     number: "1",
+  //     title: "Unpack",
+  //     description: "We dive deep into what you've built. Current state, future goals, real constraints.",
+  //   },
+  //   {
+  //     number: "2",
+  //     title: "Map",
+  //     description: "I map the gaps. Where are you losing people? Where's growth stuck? What's actually possible?",
+  //   },
+  //   {
+  //     number: "3",
+  //     title: "Design",
+  //     description: "We design your path forward. Systems, team structure, comp, and rollout plan.",
+  //   },
+  //   {
+  //     number: "4",
+  //     title: "Build",
+  //     description: "You execute. I partner alongside you, making sure nothing falls through the cracks.",
+  //   },
+  //   {
+  //     number: "5",
+  //     title: "Measure",
+  //     description: "We track what matters. Revenue, culture, retention. Adjust as we go.",
+  //   },
+  // ]
 
   return (
-    <section className="section-container">
-      <h2 className="section-title text-center mb-4">
+    <section className="section-container bg-[#1E1E1E]">
+      <img src="/Group13213165362.png" alt="" />
+      {/* <h2 className="section-title text-center mb-4">
         How It <span className="text-emerald-500">Works</span>
       </h2>
 
@@ -56,7 +57,7 @@ export default function HowItWorks() {
           it with you.
         </p>
         <button className="btn-primary">Let's Go</button>
-      </div>
+      </div> */}
     </section>
   )
 }
